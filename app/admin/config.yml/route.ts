@@ -22,7 +22,7 @@ collections:
           - { label: Analytics, value: analytics }
           - { label: Food, value: food }
           - { label: Sustainability, value: sustainability }
-          - { label: Democracy, value: democracy }
+          - { label: Travel, value: travel }
           - { label: Other, value: other }
       - { label: Excerpt, name: excerpt, widget: text }
       - { label: Body, name: body, widget: markdown }

@@ -6,7 +6,7 @@ import html from 'remark-html';
 
 const postsDirectory = path.join(process.cwd(), 'content/posts');
 
-export type PostCategory = 'technology' | 'analytics' | 'food' | 'sustainability' | 'democracy' | 'other';
+export type PostCategory = 'technology' | 'analytics' | 'food' | 'sustainability' | 'travel' | 'other';
 
 export interface PostMeta {
   slug: string;
@@ -26,7 +26,7 @@ export const categoryLabels: Record<PostCategory, string> = {
   analytics: 'Analytics',
   food: 'Food',
   sustainability: 'Sustainability',
-  democracy: 'Democracy',
+  travel: 'Travel',
   other: 'Other',
 };
 
@@ -35,7 +35,7 @@ export const categoryColors: Record<PostCategory, string> = {
   analytics: 'bg-purple-100 text-purple-800',
   food: 'bg-orange-100 text-orange-800',
   sustainability: 'bg-green-100 text-green-800',
-  democracy: 'bg-red-100 text-red-800',
+  travel: 'bg-yellow-100 text-yellow-800',
   other: 'bg-gray-100 text-gray-700',
 };
 

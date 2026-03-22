@@ -43,7 +43,7 @@ export default function AboutPage() {
                 <li><strong>Analytics</strong> — data analysis, metrics, and making sense of information</li>
                 <li><strong>Food</strong> — recipes, ingredients, restaurants, and the culture around eating</li>
                 <li><strong>Sustainability</strong> — environment, energy, and building a more sustainable world</li>
-                <li><strong>Democracy</strong> — politics, civic life, and the health of democratic institutions</li>
+                <li><strong>Travel</strong> — destinations, experiences, and lessons from life on the road</li>
                 <li><strong>Other</strong> — everything else that doesn&apos;t fit neatly in a box</li>
               </ul>
               <h2>Get in touch</h2>
