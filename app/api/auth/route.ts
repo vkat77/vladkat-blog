@@ -13,7 +13,7 @@ export async function GET(request: NextRequest) {
     return new Response('OAuth not configured — missing GITHUB_CLIENT_ID', { status: 500 });
   }
 
-  const host = request.headers.get('host');
+  const host = request.headers.get('x-forwarded-host') || request.headers.get('host');
   const protocol = host?.startsWith('localhost') ? 'http' : 'https';
   const callbackUrl = `${protocol}://${host}/api/auth/callback`;
 
