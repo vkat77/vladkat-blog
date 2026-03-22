@@ -4,7 +4,8 @@ export default function Header() {
   return (
     <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
       <div className="max-w-5xl mx-auto px-4 py-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-        <Link href="/" className="text-2xl font-bold text-gray-900 hover:text-gray-700 transition-colors">
+        <Link href="/" className="flex items-center gap-3 text-2xl font-bold text-gray-900 hover:text-gray-700 transition-colors">
+          <img src="/logo.svg" alt="VK" className="h-10 w-auto" />
           vladkat.com
         </Link>
         <nav className="flex items-center gap-4 flex-wrap">
