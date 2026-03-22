@@ -6,7 +6,7 @@ import Link from 'next/link';
 export default function Home() {
   const allPosts = getAllPosts();
   const recentPosts = allPosts.slice(0, 5);
-  const categories: PostCategory[] = ['technology', 'analytics', 'food', 'sustainability', 'democracy', 'other'];
+  const categories: PostCategory[] = ['technology', 'analytics', 'food', 'sustainability', 'travel', 'other'];
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
@@ -17,7 +17,7 @@ export default function Home() {
           <div className="bg-white border border-gray-200 p-6 mb-6">
             <h1 className="text-3xl font-bold text-gray-900 mb-2">Welcome to vladkat.com</h1>
             <p className="text-gray-600 text-sm leading-relaxed">
-              Writing about technology, analytics, food, sustainability, and democracy. Curious by nature, learning in public.
+              Writing about technology, analytics, food, sustainability, and travel. Curious by nature, learning in public.
             </p>
             <div className="flex flex-wrap gap-2 mt-4">
               {categories.map((cat) => (
