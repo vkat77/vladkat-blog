@@ -41,10 +41,19 @@ export async function GET(request: NextRequest) {
   }
 
   const token = JSON.stringify({ token: data.access_token, provider: 'github' });
-  const html = `<!doctype html><html><body><script>
-    window.opener.postMessage('authorization:github:success:${token}', '*');
-    window.close();
-  </script></body></html>`;
+  const html = `<!doctype html><html><body>
+    <p>Token obtained. Sending to CMS...</p>
+    <script>
+      const msg = 'authorization:github:success:${token}';
+      if (window.opener) {
+        window.opener.postMessage(msg, '*');
+        document.body.innerHTML += '<p>postMessage sent. Closing...</p>';
+        setTimeout(() => window.close(), 2000);
+      } else {
+        document.body.innerHTML += '<p>ERROR: window.opener is null</p>';
+      }
+    </script>
+  </body></html>`;
 
   return new NextResponse(html, { headers: { 'Content-Type': 'text/html' } });
 }
