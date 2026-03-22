@@ -33,7 +33,9 @@ export default function AboutPage() {
 
             <div className="prose">
               <p>
-                VeevoMedia is my own publication on subjects of interest to me. Veevo stands for Vlad&apos;s Voice.
+                Hi, I&apos;m Vlad. I help people navigate technological change — in life and at work.
+                I&apos;m passionate about digital experimentation, thoughtful data analysis, effective
+                data visualization, and using analytical frameworks for better decisions.
               </p>
               <h2>What I write about</h2>
               <ul>
