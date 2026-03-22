@@ -27,7 +27,7 @@ export default async function PostPage({ params }: Props) {
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
-      <div className="flex gap-8 items-start">
+      <div className="flex flex-col lg:flex-row gap-8 items-start">
         <div className="flex-1 min-w-0">
           <article className="bg-white border border-gray-200 p-6">
             {/* Breadcrumb */}
@@ -66,7 +66,7 @@ export default async function PostPage({ params }: Props) {
           </article>
         </div>
 
-        <div className="w-64 flex-shrink-0">
+        <div className="w-full lg:w-64 lg:flex-shrink-0">
           <Sidebar />
         </div>
       </div>

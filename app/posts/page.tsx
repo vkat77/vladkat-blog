@@ -13,7 +13,7 @@ export default function AllPostsPage() {
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
-      <div className="flex gap-8 items-start">
+      <div className="flex flex-col lg:flex-row gap-8 items-start">
         <div className="flex-1 min-w-0">
           <div className="bg-white border border-gray-200 p-6">
             <h1 className="text-2xl font-bold text-gray-900 mb-1">All Posts</h1>
@@ -33,7 +33,7 @@ export default function AllPostsPage() {
           </div>
         </div>
 
-        <div className="w-64 flex-shrink-0">
+        <div className="w-full lg:w-64 lg:flex-shrink-0">
           <Sidebar />
         </div>
       </div>

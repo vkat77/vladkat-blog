@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
-      <div className="flex gap-8 items-start">
+      <div className="flex flex-col lg:flex-row gap-8 items-start">
         {/* Main column */}
         <div className="flex-1 min-w-0">
           {/* Hero */}
@@ -56,7 +56,7 @@ export default function Home() {
         </div>
 
         {/* Sidebar */}
-        <div className="w-64 flex-shrink-0">
+        <div className="w-full lg:w-64 lg:flex-shrink-0">
           <Sidebar />
         </div>
       </div>
