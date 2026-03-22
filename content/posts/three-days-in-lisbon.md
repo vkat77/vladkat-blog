@@ -1,8 +1,10 @@
 ---
-title: "Three Days in Lisbon"
-date: "2026-01-18"
-category: "other"
-excerpt: "Lisbon keeps getting recommended to me and I kept putting it off. I finally went. Here's what I actually did, what surprised me, and what I'd skip next time."
+title: Three Days in Lisbon
+date: 2026-01-18
+category: travel
+excerpt: Lisbon keeps getting recommended to me and I kept putting it off. I
+  finally went. Here's what I actually did, what surprised me, and what I'd skip
+  next time.
 ---
 
 I'd had Lisbon on my list for three years. People kept telling me it was the best city in Europe right now — affordable, walkable, sunny, good food. They were right, which made me slightly annoyed because I hate being wrong about putting something off.
