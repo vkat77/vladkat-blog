@@ -1,12 +1,6 @@
-import { NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
 
-const CONFIG = `backend:
-  name: github
-  repo: vkat77/vladkat-blog
-  branch: main
-  base_url: https://vladkat.com
-  auth_endpoint: api/auth
-
+const COLLECTIONS = `
 media_folder: public/uploads
 public_folder: /uploads
 
@@ -34,8 +28,20 @@ collections:
       - { label: Body, name: body, widget: markdown }
 `;
 
-export async function GET() {
-  return new NextResponse(CONFIG, {
+export async function GET(request: NextRequest) {
+  const host = request.headers.get('host');
+  const protocol = host?.startsWith('localhost') ? 'http' : 'https';
+  const baseUrl = `${protocol}://${host}`;
+
+  const config = `backend:
+  name: github
+  repo: vkat77/vladkat-blog
+  branch: main
+  base_url: ${baseUrl}
+  auth_endpoint: api/auth
+${COLLECTIONS}`;
+
+  return new NextResponse(config, {
     headers: { 'Content-Type': 'text/yaml; charset=utf-8' },
   });
 }
