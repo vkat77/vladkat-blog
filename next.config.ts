@@ -2,8 +2,16 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
-    // Allow unoptimized local images in development
     unoptimized: true,
+  },
+  async redirects() {
+    return [
+      {
+        source: '/admin',
+        destination: '/admin/',
+        permanent: false,
+      },
+    ];
   },
 };
 
