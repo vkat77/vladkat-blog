@@ -1,0 +1,41 @@
+import { NextResponse } from 'next/server';
+
+const CONFIG = `backend:
+  name: github
+  repo: vkat77/vladkat-blog
+  branch: main
+  auth_type: pkce
+  app_id: Ov23ligkTWOdfaJtGD5H
+
+media_folder: public/uploads
+public_folder: /uploads
+
+collections:
+  - name: posts
+    label: Posts
+    folder: content/posts
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Date, name: date, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - label: Category
+        name: category
+        widget: select
+        options:
+          - { label: Technology, value: technology }
+          - { label: Analytics, value: analytics }
+          - { label: Food, value: food }
+          - { label: Sustainability, value: sustainability }
+          - { label: Democracy, value: democracy }
+          - { label: Other, value: other }
+      - { label: Excerpt, name: excerpt, widget: text }
+      - { label: Body, name: body, widget: markdown }
+`;
+
+export async function GET() {
+  return new NextResponse(CONFIG, {
+    headers: { 'Content-Type': 'text/yaml; charset=utf-8' },
+  });
+}
