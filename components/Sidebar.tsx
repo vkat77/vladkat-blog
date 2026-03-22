@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { categoryLabels, PostCategory } from '@/lib/posts';
 
 export default function Sidebar() {
@@ -12,8 +13,8 @@ export default function Sidebar() {
           About Me
         </h3>
         <div className="flex flex-col items-center text-center">
-          <div className="w-24 h-24 rounded-full overflow-hidden bg-gray-300 mb-3 flex items-center justify-center text-2xl font-bold text-gray-500">
-            VK
+          <div className="w-24 h-24 rounded-full overflow-hidden bg-gray-300 mb-3">
+            <Image src="/avatar.jpg" alt="Vlad Katsva" width={96} height={96} className="object-cover w-full h-full" />
           </div>
           <p className="font-bold text-gray-900 text-sm uppercase tracking-widest mb-2">VLAD KATSVA</p>
           <p className="text-sm text-gray-600 leading-relaxed">
