@@ -33,9 +33,10 @@ export default function AboutPage() {
 
             <div className="prose">
               <p>
-                Hi, I&apos;m Vlad. I help people navigate technological change — in life and at work.
-                I&apos;m passionate about digital experimentation, thoughtful data analysis, effective
-                data visualization, and using analytical frameworks for better decisions.
+                Hi, I&apos;m Vlad. I write about things I&apos;m passionate about: data, technology,
+                and how it helps us live better lives through learning, discovery, and better use of
+                limited resources. In this space, I share my thoughts, experiences, and learnings.
+                Thanks for visiting!
               </p>
               <h2>What I write about</h2>
               <ul>

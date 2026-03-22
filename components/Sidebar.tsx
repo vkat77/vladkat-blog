@@ -18,9 +18,10 @@ export default function Sidebar() {
           </div>
           <p className="font-bold text-gray-900 text-sm uppercase tracking-widest mb-2">VLAD KATSVA</p>
           <p className="text-sm text-gray-600 leading-relaxed">
-            Hi, I&apos;m Vlad. I help people navigate technological change — in life and at work.
-            I&apos;m passionate about digital experimentation, thoughtful data analysis, effective
-            data visualization, and using analytical frameworks for better decisions.
+            Hi, I&apos;m Vlad. I write about things I&apos;m passionate about: data, technology,
+            and how it helps us live better lives through learning, discovery, and better use of
+            limited resources. In this space, I share my thoughts, experiences, and learnings.
+            Thanks for visiting!
           </p>
         </div>
       </div>
