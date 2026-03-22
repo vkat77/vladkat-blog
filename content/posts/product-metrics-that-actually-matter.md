@@ -1,8 +1,10 @@
 ---
-title: "Product Metrics That Actually Matter"
-date: "2026-03-10"
-category: "technology"
-excerpt: "Most product teams track too many metrics and act on too few. Here's how I think about cutting through the noise to find the signal that drives real decisions."
+title: Product Metrics That Actually Matter
+date: 2026-03-10
+category: analytics
+excerpt: Most product teams track too many metrics and act on too few. Here's
+  how I think about cutting through the noise to find the signal that drives
+  real decisions.
 ---
 
 Most product teams I've worked with have the same problem: a dashboard full of metrics and no idea which ones to care about.
