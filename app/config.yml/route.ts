@@ -4,8 +4,8 @@ const CONFIG = `backend:
   name: github
   repo: vkat77/vladkat-blog
   branch: main
-  auth_type: pkce
-  app_id: Ov23ligkTWOdfaJtGD5H
+  base_url: https://vladkat.com
+  auth_endpoint: api/auth
 
 media_folder: public/uploads
 public_folder: /uploads
