@@ -1,38 +1,40 @@
 ---
-title: Three Days in Lisbon
-date: 2026-01-18
+title: Three Days in Panama
+date: 2025-12-16
 category: travel
-excerpt: Lisbon keeps getting recommended to me and I kept putting it off. I
+excerpt: Panama keeps getting recommended to me and I kept putting it off. I
   finally went. Here's what I actually did, what surprised me, and what I'd skip
   next time.
 ---
-
-I'd had Lisbon on my list for three years. People kept telling me it was the best city in Europe right now — affordable, walkable, sunny, good food. They were right, which made me slightly annoyed because I hate being wrong about putting something off.
+I'd had Panama on my list for two decades. A bridge between two continents and oceans, home to one of humankind's most impressive engineering achievements, incredible biodiversity right in the heart of the city, holiday parades and a festival of lights, amazing food - Panama holds a special appeal to me. It's the town square of the Western Hemisphere and it shows through it's multicultural character, it's bustling commerce, and it's stunning diversity of landscapes.
 
 ## Getting oriented
 
-Lisbon is hilly. That sounds like a small thing but it shapes the whole experience. The trams exist not as tourist attractions but because walking up some of these streets is genuinely not reasonable. Bica and Glória are the famous funiculars — worth it once, then you find your own routes.
+Panama is all about 3 things: water, lights, and commerce. \
+**Water** permeates the city - the Pacific, the Canal, and the copious daily rainfall (in December). Plan accordingly or get soaked - which is often just fine with people - parades and bar crawls go on regardless!\
+**Lights** - they emanate from the many hotels and buildings, the Cinta Costera promenade, the thoroughfares, even from the Pacific itself - in the contours of the ships entering and exiting the Canal and the city lights reflecting in the water. You'd be forgiven for thinking you were in Vegas. \
+**Commerce -** the massive shopping malls, the street markets, and the everpresent foodstalls - it's all there. 5-6% of the global commerce traverses the Canal - even with recent expansions a surprisingly narrow channel, seemingly no wider than your typical 4 lane interstate highway. So yeah, if you can find it in the stores of NYC, Shanghai, or London - you'll probably find it in Panama City. 
 
-I stayed in Mouraria, the old Moorish quarter just east of the center. It's denser and more lived-in than Alfama and doesn't feel as curated. Good choice.
+
 
 ## What I ate
 
-**Tasca do Chico** (Mouraria) — small, cash-only, reservations essential. The best fado house I found. You eat simple food (the bacalhau is very good) and a singer performs unpretentiously close to your table. No performance lighting, no tourist framing. Just the music.
+**Fonda Lo Que Hay** (in the Casco Anutiguo neighborhood) — world-class food, deep smoky flavors, in a setting surrounded by various artifacts of Panamanian history.
 
-**Time Out Market** — I know, I know. But I went once, tried three things, and appreciated the curation. Treat it as a sampler, not a destination.
+**Mercado de Mariscos** — Unpretentious, open-air market with ceviche vendors competing for attention. As fresh as it gets with minimal heat treatment - the ultimate in the sea riches. 
 
-**Pastéis de Belém** — There's an argument that the original is overrated. It isn't. The custard is richer and the pastry is flakier than any I had elsewhere. Worth the queue.
+**Street-stand chorizo** — There's an argument that the original is overrated. It isn't. The custard is richer and the pastry is flakier than any I had elsewhere. Worth the queue.
 
 ## What surprised me
 
-The tiles. I expected to notice them but I didn't expect to find them genuinely moving. There's a section of the National Tile Museum that shows a panoramic view of Lisbon from 1738 — before the 1755 earthquake destroyed the lower city. You're looking at a city that no longer exists. Something about that stopped me for a long time.
+Seeing a sloth within an arm's reach in the Metropolitan Park smack in the middle of the city. These are not city creatures. They prefer to keep their distance from humans and other mammals that could do them harm. The park is maintained like a true sanctuary, where you will see a variety of birds, long lines of leaf-cutter ants, and yes - the occasional sloth - that I doubt you would see in any other major city.
 
 ## What I'd skip next time
 
-The São Jorge Castle. Fine views, but the castle itself is largely a reconstruction and the interior is thin. Same time would be better spent wandering the Alfama alleys below it.
+The hotel food. Any neighborhood with allow you find plenty of options - be it street food, local eateries, or markets. Get out and enjoy a taste of Panama, you won't regret it.
 
 ## Practical notes
 
-- Three days is the right amount. Four starts to feel stretched.
-- April weather is ideal. I went in January and it rained two of three days.
-- The metro is good but the city is small enough that you'll mostly walk.
+* Three days is the right amount. Four starts to feel stretched.
+* Carry a poncho. You WILL get rained on, like clockwork (at least in December).
+* Uber is an easy and inexpensive way to get around. I also recommend walking the entire length of the Cinta Costera (about 2.5mi or 4km). You will enjoy the views of the Pacific on one side than the impressive skyline on the other.
