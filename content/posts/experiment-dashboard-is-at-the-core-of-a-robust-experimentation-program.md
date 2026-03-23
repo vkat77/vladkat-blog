@@ -1,5 +1,5 @@
 ---
-title: Experiment Dashboard is at the core of a robust experimentation program
+title: The experiment dashboard is at the core of a robust experimentation program
 date: 2026-03-22
 category: analytics
 excerpt: One of the key elements of running a scalable experimentation program
