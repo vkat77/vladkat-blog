@@ -1,5 +1,5 @@
 ---
-title: The experiment dashboard is at the core of a robust experimentation program
+title: The Experiment Dashboard Is the Heart of Your CRO Program
 date: 2026-03-22
 category: analytics
 excerpt: One of the key elements of running a scalable experimentation program
