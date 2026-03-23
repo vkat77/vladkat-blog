@@ -1,7 +1,7 @@
 ---
 title: Lessons from tennis competition
 date: 2025-08-25
-category: other
+category: growth
 excerpt: There is something unique about tennis that in my view provides
   valuable lessons to professional achievement.  Now that the US Open is upon
   us, I've reflected on those lessons.
