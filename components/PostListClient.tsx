@@ -17,8 +17,11 @@ export default function PostListClient({ posts }: Props) {
   const categories = Object.keys(categoryLabels) as PostCategory[];
 
   const filtered = useMemo(() => {
-    let result = category === ALL ? posts : posts.filter((p) => p.category === category);
-    return sort === 'newest' ? result : [...result].reverse();
+    const result = category === ALL ? posts : posts.filter((p) => p.category === category);
+    return [...result].sort((a, b) => {
+      const d = new Date(a.date).getTime() - new Date(b.date).getTime();
+      return sort === 'newest' ? -d : d;
+    });
   }, [posts, category, sort]);
 
   return (
