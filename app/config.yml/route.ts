@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 
 const COLLECTIONS = `
+publish_mode: editorial_workflow
+
 media_folder: public/uploads
 public_folder: /uploads
 
