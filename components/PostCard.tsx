@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { PostMeta, categoryLabels, categoryColors, formatDate } from '@/lib/posts';
+import { categoryLabels, categoryColors, formatDate, PostMeta } from '@/lib/categories';
 
 interface PostCardProps {
   post: PostMeta;

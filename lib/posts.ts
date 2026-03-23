@@ -4,40 +4,15 @@ import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
 
+export type { PostCategory } from './categories';
+export { categoryLabels, categoryColors, formatDate, type PostMeta } from './categories';
+import type { PostCategory, PostMeta } from './categories';
+
 const postsDirectory = path.join(process.cwd(), 'content/posts');
-
-export type PostCategory = 'technology' | 'analytics' | 'food' | 'sustainability' | 'travel' | 'other';
-
-export interface PostMeta {
-  slug: string;
-  title: string;
-  date: string;
-  category: PostCategory;
-  excerpt: string;
-  coverImage?: string;
-}
 
 export interface Post extends PostMeta {
   content: string;
 }
-
-export const categoryLabels: Record<PostCategory, string> = {
-  technology: 'Technology',
-  analytics: 'Analytics',
-  food: 'Food',
-  sustainability: 'Sustainability',
-  travel: 'Travel',
-  other: 'Other',
-};
-
-export const categoryColors: Record<PostCategory, string> = {
-  technology: 'bg-blue-100 text-blue-800',
-  analytics: 'bg-purple-100 text-purple-800',
-  food: 'bg-orange-100 text-orange-800',
-  sustainability: 'bg-green-100 text-green-800',
-  travel: 'bg-yellow-100 text-yellow-800',
-  other: 'bg-gray-100 text-gray-700',
-};
 
 export function getAllPosts(): PostMeta[] {
   if (!fs.existsSync(postsDirectory)) return [];
@@ -94,13 +69,4 @@ export function getAllSlugs(): string[] {
     .readdirSync(postsDirectory)
     .filter((f) => f.endsWith('.md'))
     .map((f) => f.replace(/\.md$/, ''));
-}
-
-export function formatDate(dateStr: string): string {
-  const date = new Date(dateStr);
-  return date.toLocaleDateString('en-US', {
-    day: 'numeric',
-    month: 'long',
-    year: 'numeric',
-  });
 }

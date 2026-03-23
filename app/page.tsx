@@ -1,11 +1,10 @@
 import { getAllPosts, categoryLabels, PostCategory } from '@/lib/posts';
-import PostCard from '@/components/PostCard';
+import PostListClient from '@/components/PostListClient';
 import Sidebar from '@/components/Sidebar';
 import Link from 'next/link';
 
 export default function Home() {
   const allPosts = getAllPosts();
-  const recentPosts = allPosts.slice(0, 5);
   const categories: PostCategory[] = ['technology', 'analytics', 'food', 'sustainability', 'travel', 'other'];
 
   return (
@@ -32,26 +31,10 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Recent posts */}
+          {/* Posts */}
           <div className="bg-white border border-gray-200 p-6">
-            <h2 className="text-xl font-bold text-gray-900 mb-1">Latest Posts</h2>
-            <p className="text-sm text-gray-500 mb-4">Most recent writing, newest first.</p>
-
-            {recentPosts.length === 0 ? (
-              <p className="text-gray-500 text-sm py-4">No posts yet. Check back soon!</p>
-            ) : (
-              recentPosts.map((post, i) => (
-                <PostCard key={post.slug} post={post} showDivider={i > 0} />
-              ))
-            )}
-
-            {allPosts.length > 5 && (
-              <div className="mt-2 pt-4 border-t border-gray-200">
-                <Link href="/posts" className="text-sm font-bold text-gray-800 hover:text-blue-700 transition-colors">
-                  View All Posts &gt;&gt;
-                </Link>
-              </div>
-            )}
+            <h2 className="text-xl font-bold text-gray-900 mb-6">Latest Posts</h2>
+            <PostListClient posts={allPosts} />
           </div>
         </div>
 
