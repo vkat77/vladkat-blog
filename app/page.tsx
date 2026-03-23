@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function Home() {
   const allPosts = getAllPosts();
-  const categories: PostCategory[] = ['technology', 'analytics', 'food', 'sustainability', 'travel', 'other'];
+  const categories: PostCategory[] = ['technology', 'analytics', 'food', 'sustainability', 'travel', 'growth', 'other'];
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">

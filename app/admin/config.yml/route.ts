@@ -25,6 +25,7 @@ collections:
           - { label: Food, value: food }
           - { label: Sustainability, value: sustainability }
           - { label: Travel, value: travel }
+          - { label: Growth, value: growth }
           - { label: Other, value: other }
       - { label: Excerpt, name: excerpt, widget: text }
       - { label: Body, name: body, widget: markdown }

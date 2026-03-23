@@ -1,4 +1,4 @@
-export type PostCategory = 'technology' | 'analytics' | 'food' | 'sustainability' | 'travel' | 'other';
+export type PostCategory = 'technology' | 'analytics' | 'food' | 'sustainability' | 'travel' | 'growth' | 'other';
 
 export const categoryLabels: Record<PostCategory, string> = {
   technology: 'Technology',
@@ -6,6 +6,7 @@ export const categoryLabels: Record<PostCategory, string> = {
   food: 'Food',
   sustainability: 'Sustainability',
   travel: 'Travel',
+  growth: 'Growth',
   other: 'Other',
 };
 
@@ -15,6 +16,7 @@ export const categoryColors: Record<PostCategory, string> = {
   food: 'bg-orange-100 text-orange-800',
   sustainability: 'bg-green-100 text-green-800',
   travel: 'bg-yellow-100 text-yellow-800',
+  growth: 'bg-teal-100 text-teal-800',
   other: 'bg-gray-100 text-gray-700',
 };
 

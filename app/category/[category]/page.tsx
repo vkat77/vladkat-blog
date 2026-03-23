@@ -8,7 +8,7 @@ interface Props {
   params: Promise<{ category: string }>;
 }
 
-const validCategories: PostCategory[] = ['technology', 'analytics', 'food', 'sustainability', 'travel', 'other'];
+const validCategories: PostCategory[] = ['technology', 'analytics', 'food', 'sustainability', 'travel', 'growth', 'other'];
 
 export function generateStaticParams() {
   return validCategories.map((category) => ({ category }));
