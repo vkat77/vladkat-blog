@@ -18,15 +18,15 @@ If you can't accurately forecast demand or you don't know how much you have, you
 
 ##### 2. Promoting Portion Control and Menu Engineering
 
-Encouraging portion control and menu engineering can significantly reduce food waste. By carefully planning portion sizes and offering customizable options, companies can minimize plate waste and ensure that customers are served appropriate amounts of food. Additionally, menu engineering involves analyzing sales data to identify popular and profitable dishes, allowing for better planning and reducing the likelihood of excess food being prepared.
+Encouraging portion control and menu engineering can significantly reduce food waste. By planning portion sizes and offering customizable options, companies can minimize plate waste and ensure that customers are served appropriate amounts of food. Additionally, menu engineering involves analyzing sales data to identify popular and profitable dishes, allowing for better planning and reducing the likelihood of excess food being prepared.
 
 ##### 3. Implementing Effective Food Storage and Preservation Techniques
 
-Proper food storage and preservation techniques are vital in reducing food waste. Businesses should invest in appropriate storage equipment, such as refrigerators and freezers, to maintain the freshness and quality of ingredients. Additionally, staff should be trained on proper storage practices, including rotation methods to ensure that older ingredients are used first. Utilizing preservation techniques such as canning, pickling, and freezing can also extend the shelf life of certain perishable items.
+Proper food storage and preservation techniques are vital in reducing food waste. Businesses should invest in appropriate storage equipment, such as refrigerators and freezers, to maintain the freshness and quality of ingredients. Additionally, staff should be trained on proper storage practices, including rotation methods to ensure that older ingredients are used first. Preservation techniques such as canning, pickling, and freezing can also extend the shelf life of certain perishable items.
 
 ##### 4. Collaborating with Food Recovery Programs and Non-profit Organizations
 
-The hospitality industry can play a crucial role in reducing food waste by partnering with food recovery programs and non-profit organizations. These programs collect excess food that would otherwise go to waste and distribute it to those in need. By donating surplus food, establishments not only contribute to reducing food waste but also help address food insecurity in the community.
+The hospitality industry can play a crucial role in reducing food waste by partnering with food recovery programs and non-profits. These programs collect excess food that would otherwise go to waste and distribute it to those in need. By donating surplus food, establishments not only contribute to reducing food waste but also help address food insecurity in the community.
 
 ##### 5. Educating Staff and Customers
 
