@@ -1,5 +1,5 @@
 ---
-title: Lessons from tennis competition
+title: Growth Lessons From Tennis Competition
 date: 2025-08-25
 category: growth
 excerpt: There is something unique about tennis that in my view provides
