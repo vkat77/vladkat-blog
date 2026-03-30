@@ -23,7 +23,7 @@ As I reflect on what it means to be a data professional today, I see four broad 
 
 ![](/uploads/churn-data-layers.png "The DATA flywheel")
 
-These four functions have always existed in some form, but they tended to live in silos - a classic hand-off waterfall model, with maybe some (limited) overlap. What has changed is that previously data teams have been tasked with building capabilities to be handed off - either to downstream data teams or to the end-user. The new model is building solutions where the last mile (adoption, iteration, and impact measurement) is core part of the product itself. 
+These four functions have always existed in some form, but they tended to live in silos - a classic hand-off waterfall model, with maybe some limited overlap. What has changed is that previously data teams have been tasked with building capabilities to be handed off - either to downstream data teams or to the end-user. The new model is building solutions where the last mile (adoption, iteration, and impact measurement) is a core part of the product itself. 
 
 Let's use an example. \
 \
