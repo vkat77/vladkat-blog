@@ -25,25 +25,13 @@ As I reflect on what it means to be a data professional today, I see four broad 
 
 These four functions have always existed in some form, but they tended to live in silos - a classic hand-off waterfall model, with maybe some limited overlap. What has changed is that previously data teams have been tasked with building capabilities to be handed off - either to downstream data teams or to the end-user. The new model is building solutions where the last mile (adoption, iteration, and impact measurement) is a core part of the product itself. 
 
-Let's use a classic example - reduce customer churn through proactive treatments aimed at retaining profitable customers who are at the risk of churn. 
+Let's use a classic example - reduce customer churn through proactive treatments aimed at retaining profitable at-risk customers. 
 
 * **Delivery** = the data foundation (clean, trusted, fast data *about* churn)
-* * **Analysis**
+* **Analysis** = the insight layer (what does churn *mean* for us?)
+* **Tooling** = the interface layer (how do CSMs actually *use* churn scores?)
+* **A/B Testing** = the validation layer (did acting on churn predictions actually reduce churn?)
 
-     = the insight layer (what does churn 
-
-    *mean*
-
-     for us?)
-
-  * **Tooling**
-
-     = the interface layer (how do CSMs actually 
-
-    *use*
-
-     churn scores?)
+All the parts need to work together to assess the problem, hypothesize a solution, test it, and deploy it. 
 
 
-
-  **A/B Testing** = the validation layer (did acting on churn predictions actually reduce churn?)
