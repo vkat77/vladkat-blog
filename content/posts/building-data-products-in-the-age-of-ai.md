@@ -4,7 +4,9 @@ date: 2026-03-30
 category: technology
 excerpt: TBD
 ---
-I find that there is a lack of common understanding on what a 'data product' means in today's rapidly shifting landscape.\
+Data is embedded in all the core functions. Product, Marketing, Finance, Technology, People - all run on data. That's baseline 'data literacy' as table stakes for any professional. So what is the role of the 'data pro' in this context? \
+\
+To explore this topic, let's think through what the 'data product' means in today's rapidly shifting landscape. \
 \
 Let's start with a premise for a generic *product*: it is something made for a *customer* to address a *need*. \
 \
@@ -19,10 +21,10 @@ As I reflect on what it means to be a data professional today, I see four broad 
 * **T**ooling: Creating effective UX around self-service extraction of meaning from data. It may mean dashboards, it may mean embedding semantic AI-enabled capabilities, or effective processes for collaboration between stakeholders and analysts.
 * **A**/B Testing: The most effective way of establishing causal inference.  This is the holy grail of continuous discovery - finding X that drives Y \[north-star metric] This is largely a program manager, orchestrator function sitting at the intersection of technology, people \[culture], and data science \[stats]. 
 
+![](/uploads/churn-data-layers.png "The DATA flywheel")
+
 These four functions have always existed in some form, but they tended to live in silos - a classic hand-off waterfall model, with maybe some (limited) overlap. What has changed is that previously data teams have been tasked with building capabilities to be handed off - either to downstream data teams or to the end-user. The new model is building solutions where the last mile (adoption, iteration, and impact measurement) is core part of the product itself. 
 
 Let's use an example. \
 \
-Let's say you are a lender. Your job is to price risk and set rules around who to target for lending, at what price, and up to what credit line. It is a classic classification problem. Recognize customers who are likely to both take your loan offer and repay. Within that binary classification, there may be further gradations - customers you want to target via marketing campaigns, and those you want to further attract via incentive offers. 
-
-Data is embedded in all the core functions. Product, Marketing, Finance, Technology, People - all run on data. That's baseline 'data literacy' as table stakes for any professional. So what is the role of the 'data pro' in this context?
+Let's say you are a lender. Your job is to price risk and set rules around who to target for lending, at what price, and up to what credit line. It is a classic classification problem. Recognize customers who are likely to both take your loan offer and repay.
