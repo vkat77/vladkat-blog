@@ -25,4 +25,4 @@ Let's use an example. \
 \
 Let's say you are a lender. Your job is to price risk and set rules around who to target for lending, at what price, and up to what credit line. It is a classic classification problem. Recognize customers who are likely to both take your loan offer and repay. Within that binary classification, there may be further gradations - customers you want to target via marketing campaigns, and those you want to further attract via incentive offers. 
 
-First off, the basic truth is that data is deeply embedded in all business functions of the C-suite. Product, Marketing, Finance, Technology, People - all run on data. That's baseline 'data literacy' requirement of any functional leader, and the bar is only going higher.
+Data is embedded in all the core functions. Product, Marketing, Finance, Technology, People - all run on data. That's baseline 'data literacy' as table stakes for any professional. So what is the role of the 'data pro' in this context?
