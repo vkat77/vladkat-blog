@@ -32,6 +32,10 @@ Let's use a classic example - reduce customer churn through proactive treatments
 * **Tooling** = the interface layer (how do CSMs actually *use* churn scores?)
 * **A/B Testing** = the validation layer (did acting on churn predictions actually reduce churn?)
 
-All the parts need to work together to assess the problem, hypothesize a solution, test it, and deploy it. 
+All the parts need to work together to assess the problem, hypothesize a solution, test it, and deploy it. Back to the analogy, a data product is like a car, not a pile of automotive parts. You need the engine (delivery), the GPS (analysis), the dashboard (tooling), and the crash test results (A/B testing). But the real product is the ability to get from A to B safely and efficiently.
+
+The messy challenge
+
+It's one thing to define and find a destination, and something altogether different
 
 
