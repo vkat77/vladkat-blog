@@ -35,7 +35,9 @@ Incrementality measurement fixes this. It asks: *what would have happened if we 
 
   The chart below shows exactly this. Before the campaign (left of the dotted line), the two lines are nearly identical - that's the twin doing its job. After launch, they diverge. That gap is your estimated incremental lift.
 
-  *\[attach chart here]*                                                                                                  
+![]()
+
+                                                                                              
 
   What you're really asking is: "What would this market have looked like if we'd done nothing?" The synthetic control is your best answer when you can't run a proper experiment.
 
